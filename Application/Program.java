@@ -1,12 +1,18 @@
 package Application;
 
-import boardgame.Position;
+import boardgame.Board;
+import chess.ChessMatch;
+
+// Just to remember: When I finish the project,
+// I'll comment like this in each situation,
+// to study and remember all the codes
 
 public class Program {
     public static void main(String[] args) {
 
-        Position pos = new Position(3, 5);
-        System.out.println(pos.toString());
+        ChessMatch chessMatch = new ChessMatch();
+        UI.printBoard(chessMatch.getPieces());
+
     }
 
 }
