@@ -1,6 +1,7 @@
 package chess;
 
 import boardgame.Board;
+import boardgame.ChessException;
 import boardgame.Piece;
 import boardgame.Position;
 import pieces.King;

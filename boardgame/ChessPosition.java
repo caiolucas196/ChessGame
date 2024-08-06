@@ -1,10 +1,10 @@
-package chess;
+package boardgame;
 
 import boardgame.Position;
 
 public class ChessPosition {
 
-    private char column;
+    private int column;
     private int row;
 
     public ChessPosition(char column, int row) {
